@@ -1,0 +1,13 @@
+{
+  "name": "fin-sci-calculator",
+  "version": "1.0.0",
+  "description": "Zero-dependency Financial & Scientific Calculator (AST engine, persistence, web UI)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node src/ui/server.ts",
+    "test": "node --test --test-reporter=spec \"src/tests/**/*.test.ts\"",
+    "typecheck": "npx --yes -p typescript@5 -p @types/node@24 tsc -p tsconfig.json"
+  }
+}

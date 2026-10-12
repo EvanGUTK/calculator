@@ -1,0 +1,9 @@
+node_modules/
+.env*
+!.env.example
+history.json
+history.json.lock
+*.tmp
+.DS_Store
+CLAUDE.local.md
+.claude/settings.local.json
